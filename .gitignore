@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/node_modules/
+.npm
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+karuvelam.db-journal
+karuvelam.db-wal
+karuvelam.db-shm
+
+# Environment & Secrets
+.env
+.env.local
+
+# OS
+Thumbs.db
+.DS_Store

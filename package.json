@@ -1,0 +1,23 @@
+{
+  "name": "karuvelam-map-to-money",
+  "version": "1.0.0",
+  "description": "AI-Powered Seemai Karuvelam Mapping, Biomass Estimation and Rural Income Platform for Tamil Nadu",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "test:frontend": "npm --prefix frontend test",
+    "test:backend": ".venv\\Scripts\\pytest -v tests",
+    "test": "npm run test:frontend && npm run test:backend"
+  },
+  "keywords": [
+    "prosopis-juliflora",
+    "seemai-karuvelam",
+    "biomass-estimation",
+    "remote-sensing",
+    "sentinel-2",
+    "tamil-nadu",
+    "geospatial"
+  ],
+  "author": "Karuvelam Innovation Team",
+  "license": "Apache-2.0"
+}
